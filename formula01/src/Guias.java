@@ -36,6 +36,8 @@ public class Guias extends javax.swing.JDialog {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
 
+        jTabbedPane1.add("Corrida", new PanelCorrida());
+        jTabbedPane1.add("Pilotos da Corrida", new CorridaPiloto());
         jTabbedPane3.addTab("Corrida", jLabel1);
         jTabbedPane3.addTab("Piloto", jLabel2);
 
